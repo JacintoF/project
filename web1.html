@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Web Section -->
+  <section id="web" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">Playing with Time</h2>
+          <p class="text-white-50">But Reverse It</p>
+        </div>
+      </div>
+      <div>
+        <p class="text-white-50">
+          I find it interesting how the largest industry of today, tech, is still playing with time just like industry was
+          during Melville. The difference is, of course, that back then the railroads and ships wanted to exactly quantify time. They
+          wanted to break it up into nice little chunks, even across the entire country. They wanted a super accurate
+          and exact representation to have better maps. Meanwhile, tech today wants to understand time and people's
+          interpretation of it, essentially to make it go away. Clicking "Next Paragraph" doesn't seem so bad after one
+          or two clicks. But the little movements becomes very noticeable after ten, twenty, a hundred times. This bends
+          a viewer's perception of time. Let's straighten it back out.
+        </p>
+
+        <a id="MyButton1" href="#includedContent2" class="btn btn-primary js-scroll-trigger">Next Paragraph</a>
+
+        <script src="vendor/jquery/jquery.js"></script>
+
+        <script>
+          $(document).ready(function(){
+            $('#MyButton1').click(function(){
+              $("#includedContent2").load("web2.html");
+            });
+          });
+        </script>
+
+
+      </div>
+
+    </div>
+  </section>
+
+<!--  <section id="includedContent2"></section>-->
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+
+</html>
